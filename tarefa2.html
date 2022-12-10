@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Tarefa 1</title>
+</head>
+<body>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <nav class="navbar navbar-expand-sm bg-primary">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+               <!-- <span class="fw-bold text-primary">
+                    Projeto Pós-graduação
+                </span>-->
+                <img src="questões.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    SisQuest
+            </a>
+            <!-- botão hamburger-->
+            <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#links">
+                <span class="navbar-toggler-icon">
+    
+                </span>
+            
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="links">
+                <ul class="navbar-nav">
+                    <!-- Cada link será um nav-item-->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> O que é o SisQuest?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Para empresas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    </nav>
+    <div class="container-lg my-5 border-primary text-justify">
+           
+        <div class="row">
+                <div class="col-7">
+                    <div class="p-5 text-center text-primary"><h2 class="display-3"> SisQuest</h2>
+                        <p class="display lead text-justify text-primary"> Sistema de cadastro de questões</p>
+                        <p class="display lead text-justify  text-secondary"> O SISQuest é um Sistema de Banco de Dados de Questões. Ele organiza as questões relacionadas a sua disciplina, grau de dificuldade da questão, competência que a questão criada possui em relação ao curso, organização de questões autorais, de concurso ou ENADE e a elaboração de avaliação de acordo com critérios estabelecidos pelo professor.
+                            
+                       </p>
+                       <p class="text-center">
+                        <button type="button" class="btn btn-primary"> Saiba Mais</button>
+                       </p>
+                    </div>
+                </div>
+                
+                <div class="col-5 card">
+                    <div class="p-5 text-justify"><h5 class="display-6 text-warning"> Inscreva-se</h5>
+                        <h6 class="display-6 text-danger"> experimente grátis</h6>
+                        <form>
+                            <div class="form-group">
+                                <label for="formGroupInput">Nome</label>
+                                <input type="text" class="form-control" id="formGroupInput" placeholder="Nome Completo" required>
+                              </div>
+                            <div class="form-group">
+                              <label for="InputEmail1">Endereço de email</label>
+                              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Seu email" required>
+                              
+                            </div>
+                            <div class="form-group">
+                                <label for="inputFone" class="control-label">Telefone</label>
+                                <input type="text" class="form-control" id="inputFone" placeholder="Telefone" pattern="\([0-9]{2}\)[0-9]{4,6}-[0-9]{3,4}$" required>
+                              <div class="help-block with-errors">
+                            </div>
+                            <div class="form-group form-check">
+                              <input type="checkbox" class="form-check-input" id="Check1">
+                              <label class="form-check-label" for="Check1">Ao continuar o cadastro você aceita nossa política de privacidade.</label>
+                            </div>
+                            <br/>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                          </form>
+                        <p class="text-justify  text-secondary"> 
+                            
+                       </p>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
